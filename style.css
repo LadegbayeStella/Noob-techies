@@ -17,13 +17,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 body::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+
 /*hamburger Menu start*/
 .hamBurger {
   cursor: pointer;
 }
+
 .bar1,
 .bar2,
 .bar3 {
@@ -80,6 +83,7 @@ header {
   position: absolute;
   z-index: -1;
 }
+
 .blue {
   background: linear-gradient(
     148.87deg,
@@ -100,6 +104,7 @@ header {
   right: 6%;
   animation: greens infinite 8s;
 }
+
 /*Balls animation reduced for responsiveness was exceeding page height*/
 @keyframes blues {
   0% {
@@ -135,6 +140,7 @@ header {
   padding-right: 2.813rem;
   margin-top: 5rem;
 }
+
 .startText {
   width: 100%;
   display: flex;
@@ -143,6 +149,7 @@ header {
   color: white;
   text-align: center;
 }
+
 /*Introduction section start*/
 .introSection {
   padding: 30px;
@@ -157,30 +164,36 @@ header {
   margin: 0;
   border-radius: 10px;
 }
+
 .introContent p {
   font-size: 2rem;
   width: 50%;
 }
+
 .introContent img {
   width: 50%;
   border-radius: 10px;
 }
+
 /*Paths section start*/
 .pathsHead {
   color: white;
   text-align: center;
 }
+
 .pathSection {
   padding: 30px;
   display: flex;
   justify-content: center;
 }
+
 .paths {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .paths div {
   padding: 20px;
   margin: 20px;
@@ -188,9 +201,11 @@ header {
   border-radius: 5px;
   width: 200px;
 }
+
 .paths p {
   color: #fff;
 }
+
 @media screen and (max-width: 500px) {
   .introContent {
     display: flex;
@@ -206,6 +221,7 @@ header {
     align-self: center;
   }
 }
+
 @media screen and (max-width: 480px) {
   /* start text reduced for responsiveness */
   .startText {
